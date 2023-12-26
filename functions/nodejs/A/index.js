@@ -43,4 +43,5 @@ module.exports = async function (params, context, logger) {
   logger.info("AA");
   logger.info("AA");
   logger.info("BB");
+  logger.info("CC")
 }
