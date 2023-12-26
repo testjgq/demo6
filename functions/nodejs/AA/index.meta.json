@@ -11,6 +11,21 @@
   },
   "longTaskMode": false,
   "frontendSDKInvokable": false,
-  "input": [],
-  "output": []
+  "input": [
+    {
+      "key": "test",
+      "type": "Text",
+      "label": "A",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "output": [
+    {
+      "key": "test1",
+      "type": "Text",
+      "label": "B",
+      "description": ""
+    }
+  ]
 }
