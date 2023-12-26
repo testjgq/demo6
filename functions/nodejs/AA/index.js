@@ -16,8 +16,8 @@ module.exports = async function (params, context, logger) {
   // 在这里补充业务代码
   function test(AA, BB) {
     // 入参处理
-    console.log("入参1：" + AA);
-    console.log("入参2：" + BB);
+    console.log("入参：" + AA);
+    console.log("入参：" + BB);
   
     // 执行一些操作
     var sum = AA + BB;
