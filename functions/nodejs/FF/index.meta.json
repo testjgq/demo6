@@ -18,6 +18,13 @@
       "label": "入参",
       "required": false,
       "description": ""
+    },
+    {
+      "key": "num2",
+      "type": "BigInt",
+      "label": "AA",
+      "required": false,
+      "description": ""
     }
   ],
   "output": [
