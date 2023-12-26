@@ -27,9 +27,9 @@ module.exports = async function (params, context, logger) {
 
     // 返回处理后的参数
     return processed;
-}
+  }
 
 // 调用函数并传入参数
   var result = processValue('hello');
   console.log(result);  // 输出: HELLO WORLD
-}
+  }
