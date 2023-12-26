@@ -14,11 +14,18 @@ module.exports = async function (params, context, logger) {
   // logger.info(`${new Date()} 函数开始执行`);
 
   // 在这里补充业务代码
-  function getsum()
-  {
-    var num1 =10;
-    var num2 =20;
-    console.log(num1+num2);
+  function AA(param) {
+    // 入参处理
+    console.log("入参：" + param);
+   
+    // 出参处理
+    var result = "出参：" + param;
+    console.log(result);
+    return result;
   }
-  getsum()    
+   
+  // 调用函数并传入参数
+  var input = "Hello 树哥";
+  var output = AA(input);
+  console.log(output);
 }
