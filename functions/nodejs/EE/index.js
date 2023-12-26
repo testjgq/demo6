@@ -29,7 +29,7 @@ module.exports = async function (params, context, logger) {
   }
   
   // 调用函数并传入参数
-  var num1 = 5;
+  var num1 = 6;
   var num2 = 10;
   var output = addNumbers(num1, num2);
   console.log(output);
