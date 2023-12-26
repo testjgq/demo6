@@ -14,23 +14,21 @@ module.exports = async function (params, context, logger) {
   // logger.info(`${new Date()} 函数开始执行`);
 
   // 在这里补充业务代码
-  logger.info("AA");
-  logger.info("AAA");
-  function AA(num1, num2) {
+  function test(AA, BB) {
     // 入参处理
-    console.log("入参1：" + num1);
-    console.log("入参2：" + num2);
+    console.log("入参1：" + AA);
+    console.log("入参2：" + BB);
   
     // 执行一些操作
-    var sum = num1 + num2;
+    var sum = AA + BB;
   
     // 出参处理
     var result = "出参：" + sum;
     console.log(result);
     return result;
   }
-  var num1 = 5;
-  var num2 = 10;
-  var output = AA(num1, num2);
+  var AA = 5;
+  var BB = 10;
+  var output = test(AA, BB);
   console.log(output);
 }
