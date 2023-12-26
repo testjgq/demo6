@@ -14,20 +14,22 @@ module.exports = async function (params, context, logger) {
   // logger.info(`${new Date()} 函数开始执行`);
 
   // 在这里补充业务代码
-  function myFunction(param) {
+
+  function processValue(input) {
     // 入参处理
-    console.log("入参：" + param);
-   
-    // 执行一些操作
-   
+    console.log('入参: ' + input);
+
+    // 对参数进行处理
+    var processed = input.toUpperCase();
+
     // 出参处理
-    var result = "出参：" + param;
-    console.log(result);
-    return result;
-  }
-   
-  // 调用函数并传入参数
-  var input = "Hello World";
-  var output = myFunction(input);
-  console.log(output);
+    console.log('出参: ' + processed);
+
+    // 返回处理后的参数
+    return processed;
+}
+
+// 调用函数并传入参数
+  var result = processValue('hello');
+  console.log(result);  // 输出: HELLO WORLD
 }
