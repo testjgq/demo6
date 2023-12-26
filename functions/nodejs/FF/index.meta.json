@@ -16,7 +16,7 @@
       "key": "num1",
       "type": "BigInt",
       "label": "入参",
-      "required": true,
+      "required": false,
       "description": ""
     }
   ],
