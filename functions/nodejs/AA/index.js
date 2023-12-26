@@ -14,5 +14,15 @@ module.exports = async function (params, context, logger) {
   // logger.info(`${new Date()} 函数开始执行`);
 
   // 在这里补充业务代码
-  
+  // 在 User 对象中创建一条记录
+  const ss = await application.data.object("object_imya").create({
+    "email": "test@bytedance.com",
+    "phone": new application.constants.type.Phone("18610595108"),
+  })
+  logger.info("函数日志1：", ss)
+	return {
+    output1: {
+			_id: ss._id
+		}
+	}
 }
