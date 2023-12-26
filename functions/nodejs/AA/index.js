@@ -19,7 +19,7 @@ module.exports = async function (params, context, logger) {
     console.log("入参：" + param);
    
     // 出参处理
-    var result = "出参：" + param;
+    var result = "AA：" + param;
     console.log(result);
     return result;
   }
