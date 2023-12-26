@@ -29,7 +29,7 @@
   ],
   "output": [
     {
-      "key": "sum",
+      "key": "result",
       "type": "BigInt",
       "label": "出参",
       "description": ""
