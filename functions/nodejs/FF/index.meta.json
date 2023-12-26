@@ -15,14 +15,14 @@
     {
       "key": "num1",
       "type": "BigInt",
-      "label": "入参",
+      "label": "入参1",
       "required": false,
       "description": ""
     },
     {
       "key": "num2",
       "type": "BigInt",
-      "label": "AA",
+      "label": "入参2",
       "required": false,
       "description": ""
     }
