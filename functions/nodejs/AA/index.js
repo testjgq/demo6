@@ -25,7 +25,7 @@ module.exports = async function (params, context, logger) {
   }
    
   // 调用函数并传入参数
-  var input = "Hello 树哥";
+  var input = "11";
   var output = AA(input);
   console.log(output);
 }
