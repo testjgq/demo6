@@ -14,7 +14,7 @@ module.exports = async function (params, context, logger) {
   // logger.info(`${new Date()} 函数开始执行`);
 
   // 在这里补充业务代码
-  function addNumbers(num1, num2) {
+  function EE(num1, num2) {
     // 入参处理
     console.log("入参1：" + num1);
     console.log("入参2：" + num2);
@@ -31,6 +31,6 @@ module.exports = async function (params, context, logger) {
   // 调用函数并传入参数
   var num1 = 6;
   var num2 = 10;
-  var output = addNumbers(num1, num2);
+  var output = EE(num1, num2);
   console.log(output);
 }
