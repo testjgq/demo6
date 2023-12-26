@@ -16,4 +16,20 @@ module.exports = async function (params, context, logger) {
   // 在这里补充业务代码
   logger.info("AA");
   logger.info("AAA");
+  function myFunction(param) {
+    // 入参处理
+    console.log("入参：" + param);
+   
+    // 执行一些操作
+   
+    // 出参处理
+    var result = "出参：" + param;
+    console.log(result);
+    return result;
+  }
+   
+  // 调用函数并传入参数
+  var input = "Hello World";
+  var output = myFunction(input);
+  console.log(output);
 }
